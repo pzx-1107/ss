@@ -1,0 +1,342 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.focus img {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    width: 30px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 18px;
+    font-family: 'icomoon';
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0px;
+}
+
+.circle {
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+}
+
+.circle li {
+    float: left;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(225, 225, 225, 0.5);
+    border-radius: 50%;
+}
+
+.current {
+    background: #fff;
+}
+
+.newsflash {
+    margin-right: 0;
+    width: 249px;
+    height: 455px;
+}
+
+.news {
+    height: 180px;
+    border: 1px solid #ccc;
+}
+
+.news_hd {
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 15px;
+}
+
+.news_hd a {
+    float: right;
+    font-size: 13px;
+    font-family: 'icomoon';
+}
+
+.news_bd {
+    margin-top: 10px;
+    padding: 0 13px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 190px;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 255px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 64px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.lifeservice li a {
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 6px 17px;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.service_ico_bill {
+    background-position: -16px -16px;
+}
+
+.service_ico_air {
+    background-position: -77px -16px;
+}
+
+.service_ico_film {
+    background-position: -140px -16px;
+}
+
+.service_ico_games {
+    background-position: -205px -16px;
+}
+
+.service_ico_lottery {
+    background-position: -16px -88px;
+}
+
+.service_ico_come {
+    background-position: -77px -88px;
+}
+
+.service_ico_pub {
+    background-position: -140px -88px;
+}
+
+.service_ico_tain {
+    background-position: -205px -88px;
+}
+
+.service_ico_zhong {
+    background-position: -16px -159px;
+}
+
+.service_ico_li {
+    background-position: -77px -159px;
+}
+
+.service_ico_cards {
+    background-position: -140px -159px;
+}
+
+.service_ico_bai {
+    background-position: -205px -159px;
+}
+
+.bargain {
+    margin-top: 5px;
+    height: 75px;
+    border: 1px solid #ccc;
+}
+
+.recommend {
+    margin-top: 10px;
+    height: 145px;
+}
+
+.recom-hd {
+    width: 195px;
+    height: 145px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.recom-hd img {
+    margin: 15px 20px;
+}
+
+.recom-bd {
+    width: 995px;
+    height: 145px;
+}
+
+.recom-bd li {
+    float: left;
+    width: 248px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+}
+
+.recom-bd li:last-child {
+    border-right: 0;
+}
+
+.recom-bd li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*main结束*/
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #C81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 14px;
+    color: #C81623;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li a {
+    padding: 0 15px;
+}
+
+.box-bd {
+    height: 360px;
+}
+
+.tab_con li {
+    float: left;
+    height: 360px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_con_list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab_con_list li {
+    width: 80px;
+    height: 32px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    line-height: 32px;
+    text-align: center;
+}
+
+.tab_con_item {
+    border-bottom: 1px solid #ccc;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: all .2s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+
+/*电梯导航*/
+
+.fixedtool {
+    display: none;
+    position: fixed;
+    top: 130px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+}
+
+.fixedtool li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    color: #fff;
+    background: #C81623;
+}
